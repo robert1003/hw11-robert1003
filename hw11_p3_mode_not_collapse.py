@@ -15,11 +15,11 @@ from utils import *
 """ setup """
 # hyperparameters
 args = {
-    'z_dim': 100,
+    'z_dim': 150,
     'save_path': sys.argv[1],
     'img_path': sys.argv[2],
     'img_row': 10,
-    'img_col': 5,
+    'img_col': 2,
     'device': 'cuda'
 }
 args = argparse.Namespace(**args)
